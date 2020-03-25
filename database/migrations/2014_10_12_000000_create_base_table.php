@@ -17,11 +17,12 @@ class CreateBaseTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
-            $table->string('username', 40)->unique()->nullable();
+            $table->string('username', 40)->unique();
             $table->string('password');
             $table->rememberToken();
             $table->timestamp('email_verified_at')->nullable();
             $table->timestamps();
+            $table->softDeletes();
         });
 
         Schema::create('password_resets', function (Blueprint $table) {
