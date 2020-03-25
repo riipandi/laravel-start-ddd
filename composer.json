@@ -1,12 +1,13 @@
 {
-    "name": "riipandi/laravel-start-tailwind-vue",
+    "name": "riipandi/laravel-start-ddd",
     "type": "project",
-    "description": "Starter project Laravel with TailwindCSS and Vue.js preset.",
+    "description": "Starter project Laravel with TailwindCSS + Vue.js preset, and DDD principle.",
     "keywords": [
         "laravel",
         "boilerplate",
         "tailwindcss",
-        "vuejs"
+        "vuejs",
+        "ddd"
     ],
     "license": "MIT",
     "require": {
